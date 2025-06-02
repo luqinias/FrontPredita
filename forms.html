@@ -310,7 +310,8 @@
 
     if (email) {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/api/usuarios/buscar?usuario=${encodeURIComponent(email)}`, {
+        const response = await fetch(`http://127.0.0.1:8000/api/usuarios/buscar?email=${encodeURIComponent(email)}`, {
+      //const response = await fetch(`${ADDRESS_API}/api/usuarios/buscar?email=${encodeURIComponent(email)}`, {
           method: "GET",
           headers: { "Content-Type": "application/json" }
         });
@@ -357,6 +358,7 @@
     // Envio da requisição
     try {
       const response = await fetch("http://127.0.0.1:8000/api/usuarios/create", {
+    //const response = await fetch(`${ADDRESS_API}/api/usuarios/create`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
