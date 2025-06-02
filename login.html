@@ -31,8 +31,7 @@
       event.preventDefault();
       const email = document.getElementById("username").value;
       const senha = document.getElementById("password").value;
-      const response = await fetch("http://127.0.0.1:8000/api/login",
-    //const response = await fetch(`${ADDRESS_API}/api/login`,
+      const response = await fetch(`${ADDRESS_API}/api/login`,
        {
         method: "POST",
         headers: {
