@@ -61,7 +61,7 @@ Consome a [API BackPredita](https://github.com/luqinias/BackPredita) para Autent
 ---
 
 🌐 **Contato:**
-- [LinkedIn](https://www.linkedin.com/in/luc-aslira/)
+- [LinkedIn](https://www.linkedin.com/in/lucasliraoff/)
 -  Institucional: luc.aslira@ufu.br
 -  Pessoal: lucasbizil@gmail.com
 
