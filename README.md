@@ -47,7 +47,7 @@ Consome a [API BackPredita](https://github.com/luqinias/BackPredita) para Autent
 
 ### Tela de Login
 ![login](login.png)
-
+*use email: lucas@gmail.com senha: 12345678*
 ### Tela Inicial e Dashboard
 ![painel](painel.jpg)
 
